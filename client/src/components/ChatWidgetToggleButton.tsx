@@ -17,10 +17,6 @@ const ChatWidgetToggleButton: VFC<ChatWidgetToggleButtonProps> = (props) => {
       )}
       onClick={props.onClick}
     >
-
-      
-
-      {/* TODO if possible transition icons!*/}
       {!props.isWindowVisible ? (
         <svg
           xmlns="http://www.w3.org/2000/svg"
